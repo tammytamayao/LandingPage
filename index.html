@@ -14,17 +14,18 @@
                 display:flex;
                 flex-direction: column;
             }
+
 			#header {
                 background-color:white;
                 position: fixed;
                 top: 0;
-                min-height: 80px;
+                min-height: 60px;
                 width: 100%;
-                padding: 10px 25px;
+                padding: 5px 20px;
                 display: flex;
                 align-items:center;
                 justify-content: space-between;
-                z-index:1;
+                z-index:5;
                 flex-direction:row;
                 text-decoration: none;
             }
@@ -48,11 +49,11 @@
             }
 
             .nav-link {
-                margin: 10px;
-                padding: 10px;
+                margin: 5px;
+                padding: 5px;
                 color: rgb(0, 0, 0);
 				text-decoration: none;
-                font-size: 32pt;
+                font-size: 24pt;
                 font-family: 'Mina', sans-serif;
             } 
 
@@ -68,8 +69,8 @@
 			}
 
             #header-img {
-                width: 225px;
-                height: 75px;
+                width: 150px;
+                height: 50px;
                 padding: 5px;
                 display: flex;
                 justify-content: center;
@@ -104,11 +105,12 @@
                 background-image: url(Assets/bg.svg);
                 background-repeat: no-repeat;
                 background-size: cover;
+                padding-top: 50px;
             }
 
             #video iframe {
-                width: 59%;
-                height: 900px;
+                width: 60%;
+                height: 75%;
             }
 
             #thermal , #heat , #ssd {
@@ -117,13 +119,12 @@
                 align-items: center;
                 text-align: center;
                 width: calc(100%/3);
-                margin: 10px;
-                padding-left: 5px;
-                padding-right: 5px;
+                margin: 5px;
+                padding-left: 0px 5px;
                 border: 2px solid rgb(0, 0, 0);
                 box-shadow: 3px 2px;
                 border-radius: 10px;
-                font-size: 32px;
+                font-size: 20px;
                 background-color: rgb(212, 212, 212);
             }
 
@@ -132,7 +133,7 @@
                 flex-direction: row;
                 justify-content: center;
                 text-align: center;
-                padding-bottom: 20px;
+                padding-bottom: 40px;
             }
 
             .caption h3 {
@@ -144,8 +145,8 @@
             }
 
             #enclose h2 {
-                padding-top: 30px;
-                font-size: 48pt;
+                padding-top: 20px;
+                font-size: 36pt;
                 display: block;
                 width: auto;
                 height: auto;
@@ -156,11 +157,11 @@
             }
 
             #enclose {
-                padding-top: 150px;
-                background: rgb(191, 193, 205);
-                background: linear-gradient(180deg, rgb(226, 226, 226) 80%, rgba(238,207,204,1) 100%);
+                padding-top: 70px;
+                background: rgb(226, 226, 226);
                 padding-bottom: 350px;
                 height: 100vh;
+                z-index: 1;
             }
 
             .descon {
@@ -174,7 +175,7 @@
                 display: flex;
                 flex-direction: column;
                 width: auto;
-                height: auto;
+                height: 80%;
                 justify-content: center;
 			}
 
@@ -194,13 +195,13 @@
             }
             
             #connect h2 , #design h2{
-                font-size: 48pt;
+                font-size: 36pt;
                 font-family: 'Prompt', sans-serif;
 
             }
 
             #connect p , #design p{
-                font-size: 32pt;
+                font-size: 24pt;
                 font-family: 'Cabin', sans-serif;
                 padding: 5px;
             }
@@ -214,7 +215,7 @@
                 display: flex;
 				text-align: center; 
                 justify-content: center;
-                font-size: 48pt;
+                font-size: 36pt;
                 margin-top: 200px;
                 font-family: 'Prompt', sans-serif;
             }
@@ -223,7 +224,7 @@
                 display: flex;
 				text-align: center;
                 justify-content: center; 
-                font-size: 32pt;
+                font-size: 24pt;
                 font-family: 'Mina', sans-serif;
             }
 
@@ -242,10 +243,10 @@
                 justify-content: center;
                 text-align: center;
                 margin: 13px;
-                width: 500px;
-                height: 75px;
+                width: 380px;
+                height: 55px;
                 border: 2px solid rgb(0, 0, 0);
-                font-size: 24pt;
+                font-size: 20pt;
                 font-family: 'Cabin', sans-serif;
                 border-radius: 5px;
             }
@@ -253,11 +254,11 @@
             #submit {
                 margin: 13px;
                 padding: 5px;
-                font-size: 28pt;
+                font-size: 18pt;
                 background-color: rgb(255, 255, 255);
                 border: 2px solid rgb(51,51,51);
-                height: 75px;
-                width: 200px;
+                height: 55px;
+                width: 120px;
                 border-radius: 5px;
                 font-family: 'Cabin', sans-serif;
              }
